@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <!-- input fields -->
+    <label for="x">X = </label>
+    <input type="number" name="x" id="input1">
+
+    <label for="y">y = </label>
+    <input type="number" name="y" id="input2">
+<br>
+<br>
+
+    <!-- button -->
+    <input type="submit" value="+" id="plus">
+    <input type="submit" value="-" id="minus">
+    <input type="submit" value="/" id="divide">
+    <input type="submit" value="*" id="multiply">
+
+    <h3>Output = <span id="msg"></span></h3>
+    <!-- javascript -->
+    <script>
+        let x = document.querySelector("#input1");
+        let y = document.querySelector("#input2");
+
+        let plus = document.querySelector("#plus");
+        let minus = document.querySelector("#minus");
+        let divide = document.querySelector("#divide");
+        let multiply = document.querySelector("#multiply");
+
+        plus.addEventListener("click", function () {
+            // document.querySelector("#msg").innerHTML= parseInt(x.value) + parseInt(y.value) ;
+            document.querySelector("#msg").innerHTML= Number(x.value) + Number(y.value);
+        })
+
+        minus.addEventListener("click", function () {
+            document.querySelector("#msg").innerHTML = (x.value - y.value);
+        })
+
+        divide.addEventListener("click", function () {
+            document.querySelector("#msg").innerHTML = (x.value / y.value);
+        })
+
+        multiply.addEventListener("click", function () {
+            document.querySelector("#msg").innerHTML = (x.value * y.value);
+        })
+
+
+    
+    </script>
+        
+</body>
+
+</html>
