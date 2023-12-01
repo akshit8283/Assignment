@@ -1,0 +1,1994 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    background-color: rgb(61, 132, 132);
+}
+header .header .left{
+    width: 35%;
+}
+header .header .left h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 10px 10px 10px 20% ;
+    color: whitesmoke;
+
+}
+header .header .right{
+    width: 64%;
+}
+header .header .right ul{
+    list-style: none;
+    margin-top: 37px;
+    text-align: end;
+
+}
+header .header .right ul li{
+    display: inline;
+    margin: 12px;
+
+}
+header .header .right ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+/* section1  */
+.section1{
+    position: relative;
+}
+.section1 .img1{
+    background-image: url("img/banner1.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    
+}
+.section1 .main{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 1;
+}
+.section1 .main h1{
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1%;
+}
+.section1 .main h4{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.section1 .main button{
+    font-size: 20px;
+    margin: 20px;
+    background-color:transparent;
+    color: whitesmoke;
+    padding: 13px 20px;
+    border: 1px solid whitesmoke;
+}
+/* .section2  */
+
+.section2 .what h1{
+    font-size: 40px;
+    margin: 50px 0px;
+}
+.section2 .text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: unset;
+
+    margin-bottom: 20px;
+}
+.section2 .text .Integer{
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px 30px;
+    margin:0px 50px;
+}
+.section2 .text .Integer .container{
+    box-shadow: 10px 10px 5px wheat;
+    text-align: center;
+}
+.section2 .text .Integer .container i{
+    font-size: 60px;
+    margin-top: 30px;
+
+}
+.section2 .text .Integer .container h1{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.section2 .text .Integer .container p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .6;
+
+}
+.section2 .text .img2{
+    width: 49%;
+    margin:0px 50px 0px 0px;
+
+
+}
+.section2 .text .img2 img{
+    height: 500px;
+    width: 100%;
+
+}
+/* section3  */
+.section3 .year{
+    position: relative;
+    color: whitesmoke;
+}
+.section3 .img3 img{
+  height: 400px;  
+  width: 100%;
+}
+.section3 .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+}
+.section3 .text .left{
+    margin: 100px 0px 0px 100px;
+    width: 49%;
+}
+.section3 .text .left h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.section3 .text .left p{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 50px 25px 0px;
+    line-height: 35px;
+    text-align: left;
+
+}
+.section3 .text .left h4{
+    font-size: 50px;
+
+}
+.section3 .text .left h4 em{
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.section3 .text .right{
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 100px 0px 0px 0px;
+  gap: 0px 0px;
+
+
+}
+.section3 .text .right .happy h6{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.section3 .text .right .happy h1{
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3 .text .right .happy i{
+font-size: 25px;
+background-color:white;
+color: black;
+border-radius: 50%;
+padding: 20px;
+margin-top: 20px;
+}
+/* section4  */
+.section4 .upper{
+    text-align: center;
+}
+.section4 .upper h1{
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  opacity: .6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section4 .lower .main {
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+}
+.section4 .lower .main .left {
+   
+    width: 49%;
+    margin:20px 20px 20px 50px;
+    background-color: bisque;
+
+}
+.section4 .lower .left h5 , .section4 .lower .right h5{
+   
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 50px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.section4 .lower .left h5 i,.section4 .lower .right h5 i{
+   
+    font-size: 40px;
+    color: rgb(241, 245, 3);
+    margin-right: 10px;
+}
+
+
+.section4 .lower .main .right {
+   
+    width: 49%;
+    /* box-shadow: 5px 5px 5px red; */
+    margin:20px 20px 20px 0px;
+    background-color: bisque;
+
+}
+.section4 .lower .left  .text,.section4 .lower .right  .text{
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+
+}
+.section4 .lower .left  .text .img1,.section4 .lower .right  .text .img1{
+    width: 40%;
+
+}
+.section4 .lower .left  .text .img1 img,.section4 .lower .right  .text .img1 img{
+    border-radius: 50%;
+    height: 120px;
+    margin: 10px 50px;
+
+}
+.section4 .lower .left  .text .carl,.section4 .lower .right  .text .carl{
+    width: 40%;
+
+}
+.section4 .lower .left  .text .carl h4,.section4 .lower .right  .text .carl h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(244, 173, 5);
+    margin: 30px 0px 0px 0px ;
+
+}
+.section4 .lower .left  .text .carl p,.section4 .lower .right  .text .carl p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    opacity: .6;
+    margin-top: 5px;
+}
+/* section5  */
+.section5 .Ready {
+    position: relative;
+  }
+  
+  .section5 .Ready .img1 img {
+    filter: brightness(80%);
+    height: 300px;
+    width: 100%;
+  }
+  .section5 .text {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .section5 .text h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section5 .text p {
+    margin: 30px 80px;
+    font-size: 17px;
+    line-height: 0px;
+  
+  }
+  
+  .section5 .text button {
+      padding: 8px 15px;
+      font-size: 14px;
+      /* background-color: transparent; */
+      background-color: rgb(100, 73, 11);
+      color: wheat;
+      border: none;
+    }
+ /* section6  */
+
+ .section6 h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .8;
+    margin-top: 50px;
+ }
+ .section6 .letter{
+   display: flex;
+   flex-direction: unset;
+   width: 100%;
+   margin-bottom: 40px;
+
+ }
+ .section6 .letter .Duis{
+   width: 49%;
+
+ }
+ .section6 .letter .Duis p{
+   font-size: 18px;
+   font-weight: 600;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   opacity: .8;
+   margin: 40px 50px;
+
+ }
+ .section6 .letter .email{
+   width: 49%;
+ }
+ .section6 .letter .email input{
+   /* border: none;  */
+     /* border-bottom: 1px solid rgb(10, 10, 10); */
+   margin: 70px 0px 0px 0px ;
+   width: 50%;
+ }
+ .section6 .letter .email button{
+   border: none;
+   background-color: rgb(161, 172, 8);
+   padding: 15px 30px 15px 30px;
+   border: none;
+   font-size: 15px;
+   color: whitesmoke;
+   border-radius: 5px;
+   
+ }
+          /* section7  */
+  .section7{
+    color: rgb(255,255,255);
+    background-color: black;
+  }
+  .section7 .touch {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    
+  }
+  .section7 .left{
+    width: 30%;
+     margin-left: 60px;
+  }
+  .section7 .left h1{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px 0px 20px;
+  }
+  .section7 .right{
+    width: 70%;
+    margin-right: 80px;
+    opacity: .5;
+
+    
+  }
+  .section7 .right .face{
+    text-align:right;
+  }
+  .section7 .right .face i{
+    padding-top: 30px;
+    margin: 0px 15px;
+    font-size: 22px;
+
+  }
+  .section7 .right .header ul{
+    list-style: none;
+    text-align: end;
+    padding-top: 15px;
+
+
+  }
+  .section7 .right .header li{
+    display: inline;
+  }
+  .section7 .right .header li a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: rgb(255,255,255);
+    font-weight: 500;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 300;
+
+  }
+  .section7 h6{
+ font-size: 15px;
+ font-weight: 100;
+ margin: 20px 0px;
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ opacity: .5;
+ padding-bottom: 20px;
+
+  }                                                       
+
+
+
+
+ /* about us */
+
+
+
+
+
+
+ header .headera{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    background-color: rgb(61, 132, 132);
+
+ }
+ header .headera.left{
+    width: 35%;
+ }
+ header .headera .left h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 10px 10px 10px 20% ;
+    color: whitesmoke;
+ }
+ header .headera.right{
+    width: 64%;
+ }
+
+header .headera .right ul{
+    list-style: none;
+    margin-top: 37px;
+    text-align: end;
+
+}
+header .headera .right ul li{
+    display: inline;
+    margin: 12px;
+
+}
+header .headera .right ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+/* section 1a */
+.section1a .img1{
+    background-image: url("img/banner1.jpg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+.line{
+    background-color: rgba(226, 245, 11, 0.555);
+    padding: 20px 20px 20px 200px;
+}
+.line.a.h3{
+    list-style: none;
+    display: inline;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+    /* section 2a */
+    .section2a {
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .section2a.left { 
+        text-align: center;
+        width: 49%;
+        margin:20px 20px 20px 50px;
+        text-align:center;
+    
+    }
+    .section2a.left.h3{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    .section2a.left.h4{
+        margin-top: 10px;
+        font-size: x-large;
+    }
+    .section2a.right {
+        width: 49%;
+        margin:20px 20px 20px 0px;
+    }
+    .section2a.right .img{
+        padding: 20px 20px 20px 200pxs;
+        height: 100%;
+    }
+/* .section2 */
+
+.section2aa .text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: unset;
+    margin: 100px 0px 20px 0px;
+}
+.section2aa .text .Integer{
+    width: 49%;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.section2aa .text .Integer .container  h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    word-spacing: 2px;
+
+}
+.section2aa .text .Integer .container  h2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    word-spacing: 10px;
+    margin-top: 10px;
+    font-weight: 100;
+    letter-spacing: 5px;
+
+}
+.section2aa .text .Integer .container p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+.section2aa .text .img2{
+    width:49%;
+    margin:0px 10px 0px 0px;
+
+
+}
+.section2aa .text .img2 img{
+    height: 400px;
+    width: 90%;
+
+}
+/* section3 */
+.section3a .contact{
+    position: relative;
+}
+.section3a .img3 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner2.jpg");
+    background-size: cover;
+    height: 400px;
+    width: auto;
+}
+.section3a .img3 img {
+    filter: brightness(70%);
+
+}
+.section3a .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    flex-direction: unset;
+    text-align: center;
+}
+.section3a .text h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 100px 0px 0px 0px;
+    font-weight: 400;
+}
+.section3a .text p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 70px  ;
+    color: #bbb;
+    line-height: 35px;
+}
+.section3a .text button{
+    font-size: 20px;
+    margin: 20px;
+    padding: 13px 20px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    background-color:  #da9d40;
+    color: white;
+
+}
+/* .a-section4  */
+.section4a .our h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+
+}
+.section4a .box{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px 30px;
+    margin:0px 30px 0px 30px;
+    position: relative;
+    transition: all .2s ease-out 0s;
+    text-align: center;
+}
+
+
+.section4a .box .img4 img{
+    width: 100%;
+    height: 299px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    position: relative;
+    padding: 0.25rem;
+
+}
+.section4a .box .text {
+    position: absolute;
+    background-color: black;
+    top: 0%;
+    display: none;
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+}
+.section4a .box .img1:hover .text {
+    display: block;
+    opacity: 0.5;
+    animation: aniy 0.9s;
+    z-index: 5;
+}
+@keyframes aniy {
+    0% {
+        transform: rotate3d(1, -1, 0, 0deg)
+    }
+
+    100% {
+        transform: rotate3d(1, -1, 0, 180deg)
+    }
+}
+.section4a .box .text:hover {
+    display: block;
+}
+.section4a .box .text h3{
+    color: white;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section4a .box .text p{
+    color: white;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section4a .box .text i{
+    color: white;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+/* Services */
+
+
+/* .section2  */
+
+
+.section2s .text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: unset;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section2s .text .Integer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px 30px;
+    margin:0px 50px;
+  
+}
+.section2s .text .Integer .container{
+    box-shadow: 0px 0px 0px rgb(244, 243, 240);
+    text-align: center;
+}
+.section2s .text .Integer .container i{
+    font-size: 60px;
+    margin-top: 30px;
+
+}
+.section2s .text .Integer .container h1{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: .9;
+
+}
+.section2s .text .Integer .container p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .6;
+    line-height: 30px;
+
+}
+/* section3 */
+
+
+.section3s{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 80px 0px 0px 0px;
+    gap: 10px;
+}
+.section3s .left{
+    position: relative;
+    color: white;
+}
+.section3s.left .img1{
+    width: 100%;
+}
+.section3s .left .img1 img{
+    width: 100%;
+    height: 500px;
+}
+.section3s .left .text{
+    position: absolute;
+    top: 0%;
+    left: 0px;
+} 
+.section3s .left .text h2{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 400px 0px 0px 135px;
+   letter-spacing: 5px;
+}
+
+.section3s .right{
+    position: relative;
+    color: white;
+
+}
+
+.section3s .right .top .img1 img{
+    width: 100%;
+    height: 240px;
+}
+.section3s .right .top .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+} 
+.section3s .right .top .text h2{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 165px 0px 0px 135px;
+    letter-spacing: 5px;
+
+}
+.section3s .right .bottom{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.section3s .right .bottom .left{
+    position: relative;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+.section3s .right .bottom .left .img2 img{
+    width: 100%;
+    height: 240px;
+}
+
+.section3s .right .bottom .left .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.section3s .right .bottom .left .text h2{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 160px 0px 0px 65px;
+
+}
+.section3s .right .bottom .right{
+    position: relative;
+    color: white;
+}
+.section3s .right .bottom .right .img2 img{
+    width: 100%;
+    height: 240px;
+}
+.section3s .right .bottom .right .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.section3s .right .bottom .right .text h2{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 160px 0px 0px 65px;
+
+
+} 
+/* section4 */
+
+.section4s .year{
+    position: relative;
+    color: white;
+}
+.section4s .img3 img{
+    height: 400px;
+    width: 100%;
+}
+.section4s .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: unset;
+
+}
+.section4s .text .left{
+    width: 49%;
+    margin: 100PX 0PX 0PX 100PX ;
+}
+.section4s .text .left h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section4s .text .left p{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 50px 25px 0px ;
+    text-align: left;
+    line-height: 35px;
+}
+.section4s .text .left h4{
+    font-size: 50px;
+    color: #da9d40;
+}
+.section4s .text .left h4 em{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: white;
+}
+.section4s .text .right{
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px 0px;
+    margin: 100px 0px 0px 0px;
+}
+.section4s .text .right .happy h6{
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section4s .text .right .happy h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+.section4s .text .right .happy i{
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+./* gallary  */ 
+
+
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+} {
+    height: 45rem;
+}
+./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .box .gallery{
+ 
+    margin: 10px;
+ }
+ ./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ ./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ ./* gallary  */
+.section2g {
+    height: 45rem;
+}
+.section2g  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.section2g  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section2g  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.section2g  .box .gallery{
+ 
+    margin: 10px;
+ }
+ .section2g  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .section2g  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .section2g  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+/* contact  */
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+
+
+
+/* contact  */
+
+
+
+.section2c .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.section2c .contact-form {
+    margin: 0px 50px;
+
+}
+.section2c .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.section2c .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.section2c .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.section2c .main {
+    margin: 0px 50px;
+
+}
+.section2c .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.section2c button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}
