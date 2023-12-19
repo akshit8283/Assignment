@@ -1,15 +1,12 @@
 import './App.css';
-import Api from './Api';
-import Todo from './Todo';
-import To from './to';
-import Test from './Test';
+
+import Classtodo from './Classtodo';
 
 function App() {
   return (
     <>
-    {/* <Api /> */}
-    {/* < Todo /> */}
-    <Test/>
+    
+     <Classtodo/>
 
     </>
   );

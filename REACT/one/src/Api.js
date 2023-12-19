@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from 'react'
 
-const Api = () => {
+const Api = () => {                                  
+                                                  
+const [product, setproduct] = useState([])           
 
-const [product, setproduct] = useState([])
-
-    useEffect(() => {
-        fetch("https://fakestoreapi.com/products").then((res) => {
+    useEffect(() => {                                              
+        fetch("https://fakestoreapi.com/products").then((res) => {     
             return res.json()
         }).then((data)=>{
             console.log(data);
@@ -22,15 +22,15 @@ const [product, setproduct] = useState([])
         <div className="card-body">
           <h5 className="card-title">{data.title }</h5>
           <p className="card-text">{data.description}</p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
+          <a href="#" className="btn btn-primary">Go somewhere</a> 
         </div>  
       </div>
       
-    )}
+    )}  
     )}
  
-    </div>
-  )
-}
+    </div>   
+  )   
+}    
  
 export default Api                                                        

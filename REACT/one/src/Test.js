@@ -6,22 +6,22 @@ export default class Test extends components{
         this.state = {count:0 , name:"ram"}
     }
     setIncreement(){
-        this.setstate({count:++this.state.count })
+        this.setstate({count:++this.state.count })  
     }
     setDIC(){
-        this.setstate({count:this.state.count-1})
-    }
+        this.setstate({count:this.state.count-1})  
+    }        
     render(){
         return(
             <div>
                 <button onClick={()=>
                 this.setIncreement()
             }>Increement</button>
-            <button onClick={()=>
+            <button onClick={()=> 
                 this.setDIC()
             }>Dicreement</button>
             <p>{this.state.count}</p>
-            </div>
-        )
-    }
-}
+            </div>                     
+        )               
+    }                
+}    
