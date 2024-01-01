@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect} from 'react'                                        
 
 const Api = () => {                                  
                                                   
@@ -21,7 +21,7 @@ const [product, setproduct] = useState([])
         <img height={'400px'} className="card-img-top img-fluid" src={data.image} alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">{data.title }</h5>
-          <p className="card-text">{data.description}</p>
+          <p className="card-text">{data.description}</p>             
           <a href="#" className="btn btn-primary">Go somewhere</a> 
         </div>  
       </div>

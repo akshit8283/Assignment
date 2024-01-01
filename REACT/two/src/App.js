@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { increement, decreement } from './Actions/Index';
+import { useSelector, useDispatch } from 'react-redux';
+import Validation from 'Validation' 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  const Dispatch = useDispatch()
+  var state = useSelector((state) => {
+    return state.Incdec.count
 
-export default App;
+  });
+}
+return <div className='App'>   
+  <button onClick={() => {    
+  <h1>{state}</h1>              
+    dispatch(increement)      
+  }}>Increement</button>      
+  <button onClick={() => {    
+    Dispatch(decreement)       
+  }}>Decreement</button>    
+</div>  
+
+export default App;              
