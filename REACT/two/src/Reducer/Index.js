@@ -1,6 +1,6 @@
-import { combineReducers } from "redux"
-import IncDec from "./Incdec"
+import { combineReducers } from "redux"      
+import IncDec from "./Incdec"             
 
-export default combineReducers({
-    IncDec
-})   
+export default combineReducers({            
+    IncDec  
+})          
