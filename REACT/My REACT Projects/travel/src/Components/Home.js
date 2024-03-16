@@ -120,7 +120,7 @@ const Home = () => {
                         </div>
                         <div className="right col-lg-6 col-sm-12 p-lg-0 p-sm-4 d-flex justify-content-center">
                             <a href="img/me1.jpg" target="_blank" rel="noopener noreferrer"><img className="img-fluid"
-                                src="img/me.jpg" style={{ width: "400px", borderRadius:"50%"}}
+                                src="img/me.jpg" style={{ width: "400px", borderRadius:"50%" }}
                             /></a>
                         </div>
                     </div>
