@@ -32,7 +32,7 @@ const Home = () => {
                                         <li><Link className="dropdown-item fs-5 text-warning" to="/Contact">Contact</Link></li>
                                         <li><Link className="dropdown-item fs-5 text-light" to="/Contact">
                                             <i className="fa-solid fa-phone fa-sm p-2 text-warning" ></i>
-                                            +12 34 3456 7890</Link></li>
+                                            +91 76988 86410</Link></li>
                                     </div>
                                 </div>
 
@@ -56,7 +56,7 @@ const Home = () => {
                                             className=" text-light text-decoration-none px-xl-4 px-sm-0">Contact</Link>
                                         </li>
                                         <li> <i className="fa-solid fa-phone fa-sm ps-2" style={{ color: "#ffd70f" }}></i>
-                                            <Link className='text-light text-decoration-none px-xl-1 px-sm-0' to="/Contact">+12 34 3456 7890</Link>
+                                            <Link className='text-light text-decoration-none px-xl-1 px-sm-0' to="/Contact">+91 76988 86410</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -119,8 +119,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="right col-lg-6 col-sm-12 p-lg-0 p-sm-4 d-flex justify-content-center">
-                            <a href="img/man1.jpg" target="_blank" rel="noopener noreferrer"><img className="img-fluid"
-                                src="img/man1.jpg" style={{ width: "500px" }}
+                            <a href="img/me1.jpg" target="_blank" rel="noopener noreferrer"><img className="img-fluid"
+                                src="img/me.jpg" style={{ width: "400px", borderRadius:"50%"}}
                             /></a>
                         </div>
                     </div>

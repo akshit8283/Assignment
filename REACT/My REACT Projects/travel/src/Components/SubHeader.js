@@ -30,7 +30,7 @@ const SubHeader = () => {
                                     <li><Link className="dropdown-item fs-5 text-warning" to="/Contact">Contact</Link></li>
                                     <li><Link className="dropdown-item fs-5 text-light" to="/Contact">
                                         <i className="fa-solid fa-phone fa-sm p-2 text-warning" ></i>
-                                        +12 34 3456 7890</Link></li>
+                                        +91 76988 86410</Link></li>
                                 </div>
                             </div>
                         </div>

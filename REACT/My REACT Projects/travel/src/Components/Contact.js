@@ -4,7 +4,7 @@ import SubHeader from './SubHeader'
 
 
 const Contact = () => {
-  return (
+  return ( 
     <>
       <div className='Contact'>
         
@@ -74,5 +74,5 @@ const Contact = () => {
     </>
   )
 }
-
+  
 export default Contact

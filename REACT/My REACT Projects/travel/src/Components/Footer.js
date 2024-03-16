@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row text-center py-5">
                             <div className="col-12 pb-5">
-                                <h1 className="fw-bold">Newsletter</h1>
+                                <h1 className="fw-bold">Newsletter</h1> 
                             </div>
                             <div className="col-lg-5 offset-lg-1 col-sm-12 text-start">
                                 <p className="para fs-4">Duis nisi sapien, elementum finibus fermentum eget, aliquet a leo.</p>
@@ -42,10 +42,10 @@ const Footer = () => {
                                 </div>
                                 <div className="footicons col-lg-8 fs-5">
                                     <p className="d-flex justify-content-lg-end justify-content-sm-center pt-2">
-                                        <a href=""><i className="fa-brands fa-facebook-f text-muted ps-4"></i></a>
-                                        <a href=""><i className="fa-brands fa-twitter text-muted ps-4"></i></a>
-                                        <a href=""><i className="fa-brands fa-google-plus-g text-muted ps-4"></i></a>
-                                        <a href=""><i className="fa-brands fa-instagram text-muted ps-4"></i></a>
+                                        <a href="https://github.com/akshit8283"><i className="fa-brands fa-facebook-f text-muted ps-4"></i></a>
+                                        <a href="https://github.com/akshit8283"><i className="fa-brands fa-twitter text-muted ps-4"></i></a>
+                                        <a href="https://github.com/akshit8283"><i className="fa-brands fa-google-plus-g text-muted ps-4"></i></a>
+                                        <a href="https://www.instagram.com/akshit_lathiya/"><i className="fa-brands fa-instagram text-muted ps-4"></i></a>
                                     </p>
                                     <li
                                         className="footlinks list-unstyled d-flex justify-content-lg-end justify-content-sm-center pt-2">
@@ -60,8 +60,8 @@ const Footer = () => {
                                 <hr className=" text-light my-4" />
                                 <div className="footerbottom col-12 text-center text-muted">
                                     <p className="">
-                                        © 2023 Commute. All rights reserved | Design by <a href="https://github.com/sidvekariya510"
-                                            className="text-light text-decoration-none">Siddharth.V</a>
+                                        © 2023 Commute. All rights reserved | Design by <a href="https://github.com/akshit8283" target="_blank"
+                                            className="text-light text-decoration-none">Akshit Lathiya</a>
                                     </p>
                                 </div>
                             </div>

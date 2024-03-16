@@ -11,18 +11,19 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
+    
       <Routes>
-        {/* Home is the main file */}
-        <Route path='/Home' element={<Home />} />
-        <Route path='/AboutUs' element={<AboutUs />} />
-        <Route path='/Services' element={<Services />} />
-        <Route path='/Gallery' element={<Gallery />} />
-        <Route path='/Contact' element={<Contact />} />
-      </Routes>
-      {/* footer is common for all sub pages*/}
-      <Footer />
-    </>
-  );
-}
+        {/* Home is the main file */} 
+        <Route path='/Home' element={<Home />} />   
+        <Route path='/AboutUs' element={<AboutUs />} />  
+        <Route path='/Services' element={<Services />} />  
+        <Route path='/Gallery' element={<Gallery />} />  
+        <Route path='/Contact' element={<Contact />} />  
+      </Routes> 
+      {/* footer is common for all sub pages*/} 
+      <Footer /> 
+    </> 
+  ); 
+} 
 
 export default App;
