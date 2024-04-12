@@ -8,7 +8,7 @@ const Home = () => {
                 {/* <!-- section-1 container --> */}
                 <div className="section1 container-fluid d-flex gx-0">
                     <div className="overlay container">
-                        <div className="innercontainer container-fluid">
+                        <div className="innercontainer container-fluid"> 
                             <div className="row banner d-flex justify-content-center text-light gx-0">
 
                                 {/* <!-- Heading --> */}
@@ -68,8 +68,8 @@ const Home = () => {
                                         NOW EXCEPTIONAL
                                         ADVENTURE</h1>
                                     <p className="col-sm-12 text-light fs-3  px-sm-0">Vestibulum Consequat. Curabitur Mauris
-                                        Justo</p>
-                                    <Link to="/Home"
+                                        Justo</p> 
+                                    <Link to="/Home" 
                                         className="col-lg-4 col-sm-5 text-light fw-light text-decoration-none fs-4 py-3 px-0 border border-1 px-sm-0 gx-0 ">Read
                                         More</Link>
                                 </div>
@@ -81,29 +81,29 @@ const Home = () => {
 
 
                 {/* <!-- section-2 Container --> */}
-                <div className="section2 container">
-                    <div className="container my-lg-5 my-sm-5">
-                        <h1 className="text-center fw-bold">What We Do</h1>
+                <div className="section2 container">  
+                    <div className="container my-lg-5 my-sm-5"> 
+                        <h1 className="text-center fw-bold">What We Do</h1> 
                     </div>
-                    <div className="main row">
-                        <div className="left col-lg-6 col-sm-12 ps-lg-0">
-                            <div className="row text-center">
-                                {/* <!-- box-1 --> */}
+                    <div className="main row"> 
+                        <div className="left col-lg-6 col-sm-12 ps-lg-0"> 
+                            <div className="row text-center"> 
+                                {/* <!-- box-1 --> */} 
                                 <div
                                     className="box1 col-lg-5 col-md-5 offset-md-1 shadow p-lg-2 mb-lg-3 bg-body rounded py-lg-5 py-sm-4 m-lg-3 my-sm-3">
                                     <i className="fa-solid fa-gears fa-2xl fs-1" style={{ color: "#da9d40" }}></i>
                                     <h3 className="pt-lg-4 pt-sm-4">Integer Pulvinar</h3>
                                     <p className="px-3 text-muted">Integer sit amet mattis quam, sit amet ultricies velit...</p>
                                 </div>
-                                {/* <!-- box-2 --> */}
+                                {/* <!-- box-2 --> */} 
                                 <div
                                     className="box1 col-lg-5 col-md-5 mx-md-3 shadow p-lg-2 mb-lg-3 bg-body rounded py-lg-5 py-sm-4 m-lg-3 my-sm-3">
                                     <i className="fa fa-headphones fa-2xl fs-1" style={{ color: "#da9d40" }}></i>
                                     <h3 className="pt-lg-4 pt-sm-4">Integer Pulvinar</h3>
                                     <p className="px-3 text-muted">Integer sit amet mattis quam, sit amet ultricies velit...</p>
                                 </div>
-                                {/* <!-- box-3 --> */}
-                                <div
+                                {/* <!-- box-3 --> */} 
+                                <div 
                                     className="box1 col-lg-5 col-md-5 offset-md-1 shadow p-lg-2 mb-lg-3 bg-body rounded py-lg-5 py-sm-4 m-lg-3 my-sm-3">
                                     <i className="fa-regular fa-calendar-days fa-2xl fs-1" style={{ color: "#da9d40" }}></i>
                                     <h3 className="pt-lg-4 pt-sm-4">Integer Pulvinar</h3>
@@ -116,15 +116,16 @@ const Home = () => {
                                     <h3 className="pt-lg-4 pt-sm-4">Integer Pulvinar</h3>
                                     <p className="px-3 text-muted">Integer sit amet mattis quam, sit amet ultricies velit...</p>
                                 </div>
+                                
                             </div>
                         </div>
                         <div className="right col-lg-6 col-sm-12 p-lg-0 p-sm-4 d-flex justify-content-center">
                             <a href="img/me1.jpg" target="_blank" rel="noopener noreferrer"><img className="img-fluid"
                                 src="img/me.jpg" style={{ width: "400px", borderRadius:"50%" }}
-                            /></a>
-                        </div>
-                    </div>
-                </div>
+                            /></a> 
+                        </div>  
+                    </div> 
+                </div> 
 
                 {/* <!-- section-3 Container --> */}
                 <div className="section3 container-fluid gx-0 pt-5">
@@ -237,10 +238,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div >
+                </div>
             </div>
         </>
     )
 }
 
-export default Home
+export default Home 

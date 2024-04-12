@@ -21,7 +21,7 @@ const Footer = () => {
                                         <input className="email fs-4"
                                             style={{ borderBottom: "2px solid black", borderTop: "none", borderLeft: "none", borderRight: "none" }}
                                             type="text" name="email" id="" placeholder="Enter your Email" />
-
+                     
                                     </div>
                                     <div className="col-4">
                                         <input className="subscribe btn btn-warning btn-sm text-light py-lg-2 px-lg-3 py-sm-2 px-sm-5"
@@ -55,8 +55,8 @@ const Footer = () => {
                                         <Link className="text-decoration-none ps-3 text-muted" to='/Gallery'>Gallery</Link>
                                         <a className="text-decoration-none ps-3 text-muted" >Subscribe</a>
                                         <Link className="text-decoration-none ps-3 text-muted" to='/Contact'>Contact</Link>
-                                    </li>
-                                </div>
+                                    </li> 
+                                </div> 
                                 <hr className=" text-light my-4" />
                                 <div className="footerbottom col-12 text-center text-muted">
                                     <p className="">
@@ -72,5 +72,5 @@ const Footer = () => {
         </>
     )
 }
-
-export default Footer
+ 
+export default Footer    

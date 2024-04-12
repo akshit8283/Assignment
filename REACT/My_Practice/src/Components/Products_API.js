@@ -42,7 +42,7 @@ const Products_API = () => {
                     product.map((data) => {
                         return (
                             <ul className="list-group col-3">
-                                <li className="list-group-item bg-light h-100 my-2">
+                                <li className="list-group-item bg-light h-100 my-2"> 
                                     <div className="p-2">
                                         <div className="">
                                             <div className="h4 text-capitalize">{data.category}</div>
@@ -57,23 +57,23 @@ const Products_API = () => {
                                                 <li className="list-inline-item m-0"><i className="fa fa-star text-warning"></i></li>
                                                 <li className="list-inline-item m-0"><i className="fa fa-star text-warning"></i></li>
                                                 <li className="list-inline-item m-0"> <i className="fa fa-star text-secondary"></i></li>
-                                            </ul>
-                                        </div>
+                                            </ul> 
+                                        </div> 
                                         <div className="Description p text-muted overflow-hidden" style={{ height: "110px", padding: "10px 0" }}>{data.description}</div>
                                         <div className="py-3 d-flex justify-content-between">
                                             <a className="btn btn-success" href="#" role="button">Buy now</a>
                                             <a className="btn btn-dark" href="#" role="button">Add to cart</a>
-                                        </div>
-                                    </div>
+                                        </div> 
+                                    </div> 
 
-                                </li>
-                            </ul>
-                        )
+                                </li> 
+                            </ul> 
+                        ) 
                     })
                 }
             </div>
-        </>
+        </> 
     )
-}
+} 
 
-export default Products_API
+export default Products_API 

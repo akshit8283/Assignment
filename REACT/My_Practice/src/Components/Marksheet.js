@@ -2,18 +2,18 @@ import React, { useState } from 'react'
 
 const Marksheet = () => {
 
-    const myArray = [{ name: 'Sid', marks: 60, age: 20 },  //storing an array object in a variable
-    { name: 'Piyush', marks: 70, age: 21 },
+    const myArray = [{ name: 'Raj', marks: 60, age: 20 },  //storing an array object in a variable
+    { name: 'Janak', marks: 70, age: 21 },
     { name: 'Akshit', marks: 80, age: 23 },
-    { name: 'Jay', marks: 25, age: 23 },
-    { name: 'Uma', marks: 40, age: 22 },
-    { name: 'Lalu', marks: 30, age: 20 },
-    { name: 'Munna', marks: 45, age: 25 },
-    { name: 'Golu', marks: 34, age: 21 }]
+    { name: 'Chirag', marks: 25, age: 23 },
+    { name: 'Mannat', marks: 40, age: 22 },
+    { name: 'Nariyo', marks: 30, age: 20 },
+    { name: 'Ganpat', marks: 45, age: 25 },
+    { name: 'Vansaj', marks: 34, age: 21 }]
 
     const [sheet, setSheet] = useState(myArray) //using useState hook
 
-
+   
     //making a function to increase marks 
     const graceMarks = (data) => {
 
@@ -62,7 +62,7 @@ const Marksheet = () => {
                         </tr>)
                 })}
 
-            </table>
+             </table>
 
             <div className="container text-center">
                 <button className='btn btn-success' onClick={() => {
@@ -83,4 +83,4 @@ const Marksheet = () => {
 }
 
 
-export default Marksheet
+export default Marksheet 

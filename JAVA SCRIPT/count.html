@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+<style>
+    body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 25px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #46abef;
+    color: #fff;
+    transition: all 1s;
+    border-radius: 100%;
+}
+
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+        <center>
+            <h1 id="mgs">Counter</h1>
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="reset()">Reset</button>
+        </center>
+    </div>
+
+    <script >
+        let counter = 0;
+let int;
+let flag = false;
+
+function data() {
+    document.getElementById('mgs').innerHTML = `Counter :- ${counter}`;
+    counter++;
+}
+
+function start() {
+    if (flag == false) {
+        flag = true;
+        int = setInterval(data, 1000);
+    }
+}
+
+function stop() {
+    flag = false;
+    clearInterval(int);
+}
+
+function reset() {
+    counter = 0;
+    clearInterval(int);
+    flag = false;
+    start();
+}
+    </script>
+
+</body>
+
+</html>

@@ -9,20 +9,20 @@ const Contact = () => {
       <div className='Contact'>
         
         {/* common header for all pages except HOME page */}
-        <SubHeader />
-
+        <SubHeader />  
+ 
 
         {/* <!-- section-2 container --> */}
         <div className="section2 container-fluid" style={{ backgroundColor: "#e9ecef" }}>
           <div className="container">
-            <p className="text-muted py-3 px-5 mx-lg-5 mx-sm-0">
-              <Link to="/Home" style={{ textDecoration: "none", color: "#da9d40" }}> Home</Link>
+            <p className="text-muted py-3 px-5 mx-lg-5 mx-sm-0"> 
+              <Link to="/Home" style={{ textDecoration: "none", color: "#da9d40" }}> Home</Link>  
               / Contact Us
-            </p>
+            </p>  
           </div>
         </div >
         {/* <!-- section-3 container --> */}
-        <div className="section3 container-fluid">
+        <div className="section3 container-fluid"> 
           <div className="container">
             <h2 className="text-center p-sm-4">Contact Us</h2>
             <div className="contact-form">
@@ -31,7 +31,7 @@ const Contact = () => {
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <label className="ps-2">YOUR NAME:</label>
                     <input className="form-control" type="text" name="" id="" placeholder="" required />
-                  </div>
+                  </div> 
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <label className="ps-2">PHONE NUMBER:</label>
                     <input className="form-control" type="text" name="" id="" placeholder="" required />
@@ -47,7 +47,7 @@ const Contact = () => {
 
                   <div className="">
                     <textarea className="col-sm-12 form-control" name="" id="" cols="" rows="10"></textarea>
-                  </div>
+                  </div> 
 
 
                   <div className="col-md-3 col-sm-4 ps-4">
@@ -56,7 +56,7 @@ const Contact = () => {
 
                 </div>
               </form>
-            </div>
+            </div>                 
           </div>
         </div>
 
@@ -75,4 +75,4 @@ const Contact = () => {
   )
 }
   
-export default Contact
+export default Contact  

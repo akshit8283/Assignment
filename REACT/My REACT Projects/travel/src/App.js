@@ -1,19 +1,20 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Components/Home";
-import AboutUs from "./Components/AboutUs";
-import Services from "./Components/Services";
-import Gallery from "./Components/Gallery";
-import Contact from "./Components/Contact";
-import Footer from './Components/Footer';
+import Home from "./Components/Home"; 
+import AboutUs from "./Components/AboutUs"; 
+import Services from "./Components/Services"; 
+import Gallery from "./Components/Gallery"; 
+import Contact from "./Components/Contact"; 
+import Footer from './Components/Footer'; 
 
-function App() {
+function App() { 
   return (
     <>
     
       <Routes>
         {/* Home is the main file */} 
+        <Route path='/' element={<Home />}></Route>
         <Route path='/Home' element={<Home />} />   
         <Route path='/AboutUs' element={<AboutUs />} />  
         <Route path='/Services' element={<Services />} />  
@@ -26,4 +27,4 @@ function App() {
   ); 
 } 
 
-export default App;
+export default App;    
