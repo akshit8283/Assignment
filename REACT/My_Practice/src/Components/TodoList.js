@@ -64,7 +64,7 @@ const ToDo = () => {
         document.getElementById("main-btn").innerHTML = "Add Item"
     }
 
-
+  
 
     return (
 
@@ -82,8 +82,8 @@ const ToDo = () => {
                         addTask(toDo)
                     }}>Add Item</button>
 
-
-                </div>
+                    
+                </div> 
                 <div className="pt-2">
                     {
                         // array map has data, index, value always
@@ -128,4 +128,4 @@ const ToDo = () => {
     )
 }
 
-export default ToDo
+export default ToDo     

@@ -9,7 +9,7 @@
 //             .then(res=>res.json())
 //             .then(json=>console.log(json))
 
-
+    
 //Bootstrap product list designs
 //https://freefrontend.com/bootstrap-product-cards/
 
@@ -44,7 +44,7 @@ const Products_API = () => {
                             <ul className="list-group col-3">
                                 <li className="list-group-item bg-light h-100 my-2"> 
                                     <div className="p-2">
-                                        <div className="">
+                                        <div className=""> 
                                             <div className="h4 text-capitalize">{data.category}</div>
                                         </div>
                                         <div className="text-center d-flex align-items-center justify-content-center" style={{ height: "200px" }}>

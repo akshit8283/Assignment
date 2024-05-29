@@ -48,7 +48,7 @@ const Contact = () => {
                                         <p className='ps-5 text-muted'>Send us your query anytime!</p>
                                     </div> 
                                 </div>    
-                            </div> 
+                            </div>  
                             <div className="col-lg-8">
                                 <form className="row contact_form" action="#" method="post" id="contactForm" novalidate="novalidate">
                                     <div className="col-md-6">
@@ -67,7 +67,7 @@ const Contact = () => {
                                             <textarea className="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
                                         </div>
                                     </div>
-                                    <div className="col-md-12">
+                                    <div className="col-md-12"> 
                                         <button type="submit" value="submit" className="primary-btn text-uppercase py-3 px-5 h6" style={{ backgroundColor: "#ffba00" }}>Send Message</button>
                                     </div>
                                 </form>

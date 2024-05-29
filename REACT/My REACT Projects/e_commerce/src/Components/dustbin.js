@@ -15,7 +15,7 @@ export const dustbin = () => {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-
+ 
                             <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                                 <ul className="nav navbar-nav menu_nav ml-auto">
                                     <li className="nav-item"><a className="nav-link" href="index.html">Home</a></li>
@@ -77,16 +77,13 @@ export const dustbin = () => {
                         <div className="col-first">
                             <h1>Shopping Cart</h1>
                             <nav className="d-flex align-items-center">
-                                <a href="index.html">Home<span className="lnr lnr-arrow-right"></span></a>
+                                  <a href="index.html">Home<span className="lnr lnr-arrow-right"></span></a>
                                 <a href="category.html">Cart</a>
                             </nav>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
             <section className="cart_area">
                 <div className="container">
                     <div className="cart_inner">
@@ -99,8 +96,8 @@ export const dustbin = () => {
                                         <th scope="col">Quantity</th>
                                         <th scope="col">Total</th>
                                     </tr>
-                                </thead>
-                                <tbody>
+                                  </thead>
+                                <body>
                                     <tr>
                                         <td>
                                             <div className="media">
@@ -130,7 +127,7 @@ export const dustbin = () => {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
+                                        <td> 
                                             <div className="media">
                                                 <div className="d-flex">
                                                     <img src="img/cart.jpg" alt="" />
@@ -190,39 +187,38 @@ export const dustbin = () => {
                                             <a className="gray_btn" href="#">Update Cart</a>
                                         </td>
                                         <td>
-
+                                               
                                         </td>
                                         <td>
 
                                         </td>
-                                        <td>
+                                        <td> 
                                             <div className="cupon_text d-flex align-items-center">
                                                 <input type="text" placeholder="Coupon Code" />
                                                 <a className="primary-btn" href="#">Apply</a>
                                                 <a className="gray_btn" href="#">Close Coupon</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
+                                            </div> 
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <td> 
+
+                                        </td> 
+                                        <td> 
+
+                                        </td> 
+                                        <td> 
+                                            <h5>Subtotal</h5> 
+                                        </td> 
+                                        <td> 
+                                            <h5>$2160.00</h5> 
+                                        </td>  
+                                    </tr> 
+                                    <tr className="shipping_area"> 
+                                        <td> 
 
                                         </td>
                                         <td>
-
-                                        </td>
-                                        <td>
-                                            <h5>Subtotal</h5>
-                                        </td>
-                                        <td>
-                                            <h5>$2160.00</h5>
-                                        </td>
-                                    </tr>
-                                    <tr className="shipping_area">
-                                        <td>
-
-                                        </td>
-                                        <td>
-
                                         </td>
                                         <td>
                                             <h5>Shipping</h5>
@@ -248,33 +244,33 @@ export const dustbin = () => {
                                                 </select>
                                                 <input type="text" placeholder="Postcode/Zipcode" />
                                                 <a className="gray_btn" href="#">Update Details</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr className="out_button_area">
-                                        <td>
+                                            </div> 
+                                        </td> 
+                                    </tr> 
+                                    <tr className="out_button_area"> 
+                                        <td> 
 
-                                        </td>
-                                        <td>
+                                        </td> 
+                                        <td> 
 
-                                        </td>
-                                        <td>
+                                        </td> 
+                                        <td> 
 
                                         </td>
                                         <td>
                                             <div className="checkout_btn_inner d-flex align-items-center">
                                                 <a className="gray_btn" href="#">Continue Shopping</a>
                                                 <a className="primary-btn" href="#">Proceed to checkout</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                                            </div> 
+                                        </td> 
+                                    </tr> 
+                                </body> 
+                            </table> 
+                        </div> 
+                    </div>  
+                </div> 
+            </section> 
         </div>
     )
 }
-export default dustbin 
+export default dustbin     

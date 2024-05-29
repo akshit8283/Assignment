@@ -3,22 +3,22 @@ import React, { useState } from 'react'
 const Marksheet = () => {
 
     const myArray = [{ name: 'Raj', marks: 60, age: 20 },  //storing an array object in a variable
-    { name: 'Janak', marks: 70, age: 21 },
-    { name: 'Akshit', marks: 80, age: 23 },
-    { name: 'Chirag', marks: 25, age: 23 },
-    { name: 'Mannat', marks: 40, age: 22 },
-    { name: 'Nariyo', marks: 30, age: 20 },
+    { name: 'Janak', marks: 70, age: 21 }, 
+    { name: 'Akshit', marks: 80, age: 23 }, 
+    { name: 'Chirag', marks: 25, age: 23 }, 
+    { name: 'Mannat', marks: 40, age: 22 }, 
+    { name: 'Nariyo', marks: 30, age: 20 }, 
     { name: 'Ganpat', marks: 45, age: 25 },
-    { name: 'Vansaj', marks: 34, age: 21 }]
+    { name: 'Vansaj', marks: 34, age: 21 }] 
 
     const [sheet, setSheet] = useState(myArray) //using useState hook
-
+      
    
     //making a function to increase marks 
     const graceMarks = (data) => {
 
         //using map() method to 
-        const newArray = data.map((grace) => {
+        const newArray = data.map((grace) => { 
             return { name: grace.name, marks: grace.marks + 5, age: grace.age }
         })
         //setting a state of an array by calling it.
@@ -53,7 +53,7 @@ const Marksheet = () => {
                     <th className='border'>Age</th>
                 </tr>
                 {/* using map method to print the data from array*/}
-                {sheet.map((data) => {
+                {sheet.map((data) => {     
                     return (
                         <tr>
                             <td className='border'>{data.name}</td>

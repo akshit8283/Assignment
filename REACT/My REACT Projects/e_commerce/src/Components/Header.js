@@ -33,7 +33,7 @@ const Header = () => {
                                                     Details</Link></li>
                                                 <li className="nav-item"><a className="nav-link" href="#">Product Checkout</a>
                                                 </li>
-                                                <li className="nav-item"><a className="nav-link" href="#">Shopping Cart</a></li>
+                                                <li className="nav-item"><Link className="nav-link" to={"/cart"}>Shopping Cart</Link></li>
                                                 <li className="nav-item"><a className="nav-link" href="#">Confirmation</a>
                                                 </li>
                                             </ul>
@@ -67,7 +67,7 @@ const Header = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </nav>
+                        </nav> 
                     </div>
                     {/* <div className="search_input" id="search_input_box">
                         <div className="container">

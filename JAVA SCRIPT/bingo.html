@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .bingo-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.cell {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cell.called {
+  background-color: #ccc;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+  <div class="bingo-board" id="bingo-board">
+  </div>
+  <button id="call-number">Call Next Number</button>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const board = document.getElementById("bingo-board");
+  const callButton = document.getElementById("call-number");
+
+  // Create Bingo Board
+  for (let i = 1; i <= 8; i++) {
+    for (let j = 1; j <= 8; j++) {
+      const cell = document.createElement("div");
+      cell.className = "cell";
+      board.appendChild(cell);
+    }
+  }
+
+  const cells = document.querySelectorAll('.cell');
+
+  // Add click event listener to each cell
+  cells.forEach(cell => {
+    cell.addEventListener("click", toggleCalled);
+  });
+
+  // Toggle cell called state
+  function toggleCalled() {
+    this.classList.toggle("called");
+  }
+
+  // Function to call next number
+  callButton.addEventListener("click", function() {
+    const nextNumber = getNextNumber();
+    alert(`Next number is: ${nextNumber}`);
+  });
+
+  // Function to generate next random number between 1 and 99
+  function getNextNumber() {
+    return Math.floor(Math.random() * 99) + 1;
+  }
+});
+
+  </script>
+</body>
+</html>

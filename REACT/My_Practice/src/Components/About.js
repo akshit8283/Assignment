@@ -6,7 +6,7 @@ const About = () => {
    <div>
      <div className="container">
         <nav id="header">   
-            <div className="nav-logo">
+            <div className="nav-logo"> 
                 <p className="nav-name">Akshit Lathiya</p>
                 <span>  </span>
             </div>
@@ -31,7 +31,7 @@ const About = () => {
                 </ul>
             </div>
             <div className="nav-button">
-                <button className="btn">Download CV <i className="uil uil-file-alt"></i></button>
+               <a href=''> <button className="btn" >Download CV <i className="uil uil-file-alt"></i></button></a>
             </div>
             <div className="nav-menu-btn">
                 <i className="uil uil-bars" onclick="myMenuFunction()"></i>
@@ -39,19 +39,19 @@ const About = () => {
         </nav>
    </div>
    <main className="wrapper">
-   <section className="featured-box" id="home">
-                <div className="featured-text">
-                    <div className="featured-text-card">
-                        <span>Akshit Lathiya</span>
-                    </div>
-                    <div className="featured-name">
-                        <p>I'm <span className="typedText"></span></p>
+   <section className="featured-box" id="home"> 
+                <div className="featured-text"> 
+                    <div className="featured-text-card"> 
+                        <span>Akshit Lathiya</span> 
+                    </div> 
+                    <div className="featured-name"> 
+                        <p>I'm <span className="typedText"></span></p> 
                     </div>
                     <div className="featured-text-info">
                         <p> frontend developer with a passion for creating visually stunning
                             and user-friendly websites.
                         </p>
-                    </div>
+                    </div> 
                     <div className="featured-text-btn">
                         <button className="btn blue-btn">Hire Me</button>
                         <button className="btn">Download CV <i className="uil uil-file-alt"></i></button>
@@ -126,7 +126,7 @@ const About = () => {
                         <i className="uil uil-briefcase-alt"></i>
                         <h3>Completed</h3>
                         <label>15+ Finished Projects</label>
-                    </div>
+                    </div> 
                     <div className="project-box">
                         <i className="uil uil-users-alt"></i>
                         <h3>Clients</h3>
@@ -144,7 +144,7 @@ const About = () => {
         <footer>
             <div class="top-footer">
                 <p>Akshit Lathiya .</p>
-            </div>
+            </div> 
             <div class="middle-footer">
                 <ul class="footer-menu">
                     <li class="footer_menu_list">
@@ -169,9 +169,9 @@ const About = () => {
                 <div class="icon"><a href="https://github.com/akshit8283" <i class="uil uil-github-alt"></i></a></div>
             </div> */}
             <div class="bottom-footer">
-                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Akshit Lathiya</a> - All rights 
+                {/* <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Akshit Lathiya</a> - All rights 
                     reserved
-                </p>
+                </p> */}
             </div>
         </footer>
    </div>
